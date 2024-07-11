@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charxet="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-sclae=1.0">
+
+    <!--boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--slide effects-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Image with video</title>
+    <link rel="stylesheet" href="style-39.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item" style="background-image: url(Images/lishen.jfif);">
+                <div class="content">
+                    <div class="name">Li Shen</div>
+                    <div class="des">Some wounds run too deep for the healing.</div>
+                    <i class='bx bx-play-circle' onclick="toggle();"></i>
+                </div>
+           </div>
+           <div class="item" style="background-image: url(Images/shenxinghui1.jfif);">
+                <div class="content">
+                    <div class="name">Shen Xinghui</div>
+                    <div class="des">Not all who wander are lost.</div>
+                    <i class='bx bx-play-circle' onclick="toggle();"></i>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/qiyu1.jpg);">
+                <div class="content">
+                    <div class="name">Qi Yu</div>
+                    <div class="des">Cheers to good times and blurry memories.</div>
+                    <i class='bx bx-play-circle' onclick="toggle();"></i>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/qinche.jpg);">
+                <div class="content">
+                    <div class="name">Qin Che</div>
+                    <div class="des">As that I can see no way out but through –.</div>
+                    <i class='bx bx-play-circle' onclick="toggle();"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class='bx bx-chevrons-left' ></i></button>
+            <button class="next"><i class='bx bx-chevrons-right'></i></button>
+        </div>
+    </div>
+    <div class="shortclip">
+        <video src="Video/恋と深空新作戦カオスウェブ(clip1).mp4" controls="true"></video>
+        <i class='bx bx-x' onclick="toggle();"></i></div>
+    </div>
+
+    <script src="script-38.js"></script>
+</body>
+</html>
