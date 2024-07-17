@@ -209,7 +209,8 @@ body{
 .shortclip video
 {
     position: relative;
-    max-width: 1000px;
+    /*max-width: 1000px;*/
+    max-width: 600px;
     outline: none;
 }
 
